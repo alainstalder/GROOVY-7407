@@ -6,8 +6,8 @@ plugins {
 java {
   toolchain {
     languageVersion = JavaLanguageVersion.of(8)
-    vendor = JvmVendorSpec.ADOPTIUM // Temurin
-    implementation = JvmImplementation.VENDOR_SPECIFIC
+    //vendor = JvmVendorSpec.ADOPTIUM // Temurin
+    //implementation = JvmImplementation.VENDOR_SPECIFIC
   }
 }
 
@@ -19,7 +19,7 @@ project.ext {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'grengine', 'Implementation-Version': version, 'provider': 'gradle'
+    attributes 'Implementation-Title': 'groovy7407', 'Implementation-Version': version, 'provider': 'gradle'
   }
 }
 
