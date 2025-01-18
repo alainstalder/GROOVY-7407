@@ -1,0 +1,1224 @@
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+START testParallelGrabs_oldDefaultGrapeConfig
+- Groovy  4.0.24
+- Java    1.8.0_275 (AdoptOpenJDK)
+- OS      Windows 10 (10.0)
+Resolving dependency: com.google.guava#guava;17.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;18.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;13.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;12.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;15.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;16.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;10.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;14.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;11.0 {default=[default]}
+Resolving dependency: com.google.guava#guava;19.0 {default=[default]}
+EXIT THROW: Grab0089 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;19.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0099 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;19.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+EXIT THROW: Grab0069 (guava 19.0)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;19.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0091 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;11.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0028 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;18.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0057 (guava 17.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;17.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0060 (guava 10.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;10.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0012 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;12.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0036 (guava 16.0)
+EXIT THROW: Grab0075 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;16.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;15.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0074 (guava 14.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;14.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0019 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;19.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0027 (guava 17.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;17.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0022 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;12.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0072 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;12.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0031 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;11.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+EXIT THROW: Grab0014 (guava 14.0)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;14.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0056 (guava 16.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;16.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0095 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;15.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0059 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;19.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0002 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;12.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0048 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;18.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0018 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;18.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0043 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;13.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0062 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;12.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0045 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;15.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0085 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;15.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0003 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;13.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0030 (guava 10.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;10.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0005 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;15.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0063 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;13.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0050 (guava 10.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;10.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0053 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;13.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0041 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;11.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0066 (guava 16.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;16.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0081 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;11.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0049 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;19.0: com.google.guava#guava-parent;19.0->org.sonatype.oss#oss-parent;7]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0093 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;13.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0011 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;11.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0055 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;15.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0040 (guava 10.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;10.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0032 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;12.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0017 (guava 17.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;17.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0096 (guava 16.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;16.0: com.google.guava#guava-parent;16.0->org.sonatype.oss#oss-parent;7]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0021 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;11.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0064 (guava 14.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;14.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Preparing to download artifact com.google.guava#guava;18.0!guava.jar
+Preparing to download artifact com.google.guava#guava;16.0!guava.jar
+Preparing to download artifact com.google.guava#guava;17.0!guava.jar
+Preparing to download artifact com.google.guava#guava;13.0!guava.jar
+Preparing to download artifact com.google.guava#guava;19.0!guava.jar
+Preparing to download artifact com.google.guava#guava;15.0!guava.jar
+Preparing to download artifact com.google.guava#guava;14.0!guava.jar
+EXIT THROW: Grab0098 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;18.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Sat Jan 18 15:37:50 CET 2025 - 53 threads running...
+- Grab0000 (guava 10.0)
+- Grab0001 (guava 11.0)
+- Grab0004 (guava 14.0)
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0009 (guava 19.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0015 (guava 15.0)
+- Grab0016 (guava 16.0)
+- Grab0020 (guava 10.0)
+- Grab0023 (guava 13.0)
+- Grab0024 (guava 14.0)
+- Grab0025 (guava 15.0)
+- Grab0026 (guava 16.0)
+- Grab0029 (guava 19.0)
+- Grab0033 (guava 13.0)
+- Grab0034 (guava 14.0)
+- Grab0035 (guava 15.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0039 (guava 19.0)
+- Grab0042 (guava 12.0)
+- Grab0044 (guava 14.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0051 (guava 11.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0058 (guava 18.0)
+- Grab0061 (guava 11.0)
+- Grab0065 (guava 15.0)
+- Grab0067 (guava 17.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0071 (guava 11.0)
+- Grab0073 (guava 13.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0078 (guava 18.0)
+- Grab0079 (guava 19.0)
+- Grab0080 (guava 10.0)
+- Grab0082 (guava 12.0)
+- Grab0083 (guava 13.0)
+- Grab0084 (guava 14.0)
+- Grab0086 (guava 16.0)
+- Grab0087 (guava 17.0)
+- Grab0088 (guava 18.0)
+- Grab0090 (guava 10.0)
+- Grab0092 (guava 12.0)
+- Grab0094 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar.part
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar.part
+EXIT THROW: Grab0087 (guava 17.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;17.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0065 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;15.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Preparing to download artifact com.google.guava#guava;11.0!guava.jar
+EXIT THROW: Grab0061 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.code.findbugs#jsr305;1.3.9: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Preparing to download artifact com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
+Preparing to download artifact com.google.guava#guava;10.0!guava.jar
+Preparing to download artifact com.google.guava#guava;12.0!guava.jar
+Downloaded 32 Kbytes in 141ms:
+  [NOT REQUIRED] com.google.guava#guava;11.0!guava.jar
+  [SUCCESSFUL ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar (130ms)
+EXIT THROW: Grab0051 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.code.findbugs#jsr305;1.3.9!jsr305.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0090 (guava 10.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;10.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT REGULAR: Grab0071 (guava 11.0)
+EXIT THROW: Grab0001 (guava 11.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.code.findbugs#jsr305;1.3.9!jsr305.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Downloaded 1467 Kbytes in 1302ms:
+  [SUCCESSFUL ] com.google.guava#guava;10.0!guava.jar (1291ms)
+  [NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
+EXIT REGULAR: Grab0020 (guava 10.0)
+EXIT THROW: Grab0092 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;12.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0073 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;13.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0015 (guava 15.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;15.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0082 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;12.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Downloaded 2121 Kbytes in 9504ms:
+  [SUCCESSFUL ] com.google.guava#guava;15.0!guava.jar (9502ms)
+EXIT REGULAR: Grab0035 (guava 15.0)
+EXIT THROW: Grab0083 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;13.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0033 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;13.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0026 (guava 16.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;16.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0009 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;19.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0004 (guava 14.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;14.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0094 (guava 14.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;14.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0039 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;19.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0078 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;18.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0029 (guava 19.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;19.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Downloaded 2254 Kbytes in 10600ms:
+  [SUCCESSFUL ] com.google.guava#guava;19.0!guava.jar (10600ms)
+EXIT REGULAR: Grab0079 (guava 19.0)
+Sat Jan 18 15:38:00 CET 2025 - 30 threads running...
+- Grab0000 (guava 10.0)
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0023 (guava 13.0)
+- Grab0024 (guava 14.0)
+- Grab0025 (guava 15.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0042 (guava 12.0)
+- Grab0044 (guava 14.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0058 (guava 18.0)
+- Grab0067 (guava 17.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0080 (guava 10.0)
+- Grab0084 (guava 14.0)
+- Grab0086 (guava 16.0)
+- Grab0088 (guava 18.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+EXIT REGULAR: Grab0000 (guava 10.0)
+EXIT REGULAR: Grab0025 (guava 15.0)
+EXIT THROW: Grab0067 (guava 17.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;17.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0086 (guava 16.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;16.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0044 (guava 14.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;14.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT THROW: Grab0042 (guava 12.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;12.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Sat Jan 18 15:38:10 CET 2025 - 24 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0023 (guava 13.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0058 (guava 18.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0080 (guava 10.0)
+- Grab0084 (guava 14.0)
+- Grab0088 (guava 18.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+EXIT THROW: Grab0023 (guava 13.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;13.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+EXIT REGULAR: Grab0080 (guava 10.0)
+EXIT THROW: Grab0058 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [download failed: com.google.guava#guava;18.0!guava.jar]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Sat Jan 18 15:38:20 CET 2025 - 21 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0088 (guava 18.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+EXIT THROW: Grab0088 (guava 18.0)
+java.lang.RuntimeException: Error grabbing Grapes -- [unresolved dependency: com.google.guava#guava;18.0: not found]
+	at groovy.grape.GrapeIvy.getDependencies(GrapeIvy.groovy:479)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:640)
+	at groovy.grape.GrapeIvy.resolve(GrapeIvy.groovy:616)
+	at groovy.grape.GrapeIvy.grab(GrapeIvy.groovy:280)
+	at GrabConcurrencyTest.lambda$testParallelGrabs$0(GrabConcurrencyTest.java:124)
+	at java.lang.Thread.run(Thread.java:748)
+Sat Jan 18 15:38:30 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:38:40 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:38:50 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:39:00 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:39:10 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:39:20 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:39:30 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:39:40 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:39:50 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:40:00 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:40:10 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+Sat Jan 18 15:40:20 CET 2025 - 20 threads running...
+- Grab0006 (guava 16.0)
+- Grab0007 (guava 17.0)
+- Grab0008 (guava 18.0)
+- Grab0010 (guava 10.0)
+- Grab0013 (guava 13.0)
+- Grab0016 (guava 16.0)
+- Grab0024 (guava 14.0)
+- Grab0034 (guava 14.0)
+- Grab0037 (guava 17.0)
+- Grab0038 (guava 18.0)
+- Grab0046 (guava 16.0)
+- Grab0047 (guava 17.0)
+- Grab0052 (guava 12.0)
+- Grab0054 (guava 14.0)
+- Grab0068 (guava 18.0)
+- Grab0070 (guava 10.0)
+- Grab0076 (guava 16.0)
+- Grab0077 (guava 17.0)
+- Grab0084 (guava 14.0)
+- Grab0097 (guava 17.0)
+Downloaded artifacts:
+- guava-10.0.jar
+- guava-10.0.jar.part
+- guava-11.0.jar
+- guava-12.0.jar.part
+- guava-13.0.jar.part
+- guava-14.0.jar.part
+- guava-15.0.jar
+- guava-16.0.jar.part
+- guava-17.0.jar.part
+- guava-18.0.jar.part
+- guava-19.0.jar
+> Task :test
+> Task :test FAILED
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':test'.
+> Build cancelled while executing task ':test'
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+BUILD FAILED in 2m 49s
+2 actionable tasks: 2 executed
+
