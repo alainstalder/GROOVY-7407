@@ -1,0 +1,142 @@
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+START testParallelGrabs_oldDefaultGrapeConfigPlusGrengineLocking
+- Groovy  4.0.24
+- Java    1.8.0_422 (Temurin)
+- OS      Mac OS X (15.2)
+Resolving dependency: com.google.guava#guava;10.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;10.0!guava.jar
+Preparing to download artifact com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
+EXIT REGULAR: Grab0000 (guava 10.0)
+Resolving dependency: com.google.guava#guava;15.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;15.0!guava.jar
+EXIT REGULAR: Grab0095 (guava 15.0)
+Resolving dependency: com.google.guava#guava;13.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;13.0!guava.jar
+EXIT REGULAR: Grab0093 (guava 13.0)
+Resolving dependency: com.google.guava#guava;14.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;14.0!guava.jar
+EXIT REGULAR: Grab0094 (guava 14.0)
+Resolving dependency: com.google.guava#guava;11.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;11.0!guava.jar
+EXIT REGULAR: Grab0091 (guava 11.0)
+Resolving dependency: com.google.guava#guava;18.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;18.0!guava.jar
+EXIT REGULAR: Grab0088 (guava 18.0)
+Resolving dependency: com.google.guava#guava;19.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;19.0!guava.jar
+EXIT REGULAR: Grab0089 (guava 19.0)
+EXIT REGULAR: Grab0090 (guava 10.0)
+Resolving dependency: com.google.guava#guava;16.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;16.0!guava.jar
+EXIT REGULAR: Grab0096 (guava 16.0)
+EXIT REGULAR: Grab0054 (guava 14.0)
+EXIT REGULAR: Grab0056 (guava 16.0)
+EXIT REGULAR: Grab0065 (guava 15.0)
+EXIT REGULAR: Grab0030 (guava 10.0)
+Resolving dependency: com.google.guava#guava;17.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;17.0!guava.jar
+EXIT REGULAR: Grab0097 (guava 17.0)
+EXIT REGULAR: Grab0066 (guava 16.0)
+EXIT REGULAR: Grab0059 (guava 19.0)
+EXIT REGULAR: Grab0018 (guava 18.0)
+EXIT REGULAR: Grab0021 (guava 11.0)
+Resolving dependency: com.google.guava#guava;12.0 {default=[default]}
+Preparing to download artifact com.google.guava#guava;12.0!guava.jar
+EXIT REGULAR: Grab0042 (guava 12.0)
+EXIT REGULAR: Grab0016 (guava 16.0)
+EXIT REGULAR: Grab0098 (guava 18.0)
+EXIT REGULAR: Grab0086 (guava 16.0)
+EXIT REGULAR: Grab0099 (guava 19.0)
+EXIT REGULAR: Grab0055 (guava 15.0)
+EXIT REGULAR: Grab0085 (guava 15.0)
+EXIT REGULAR: Grab0053 (guava 13.0)
+EXIT REGULAR: Grab0025 (guava 15.0)
+EXIT REGULAR: Grab0020 (guava 10.0)
+EXIT REGULAR: Grab0033 (guava 13.0)
+EXIT REGULAR: Grab0068 (guava 18.0)
+EXIT REGULAR: Grab0049 (guava 19.0)
+EXIT REGULAR: Grab0041 (guava 11.0)
+EXIT REGULAR: Grab0084 (guava 14.0)
+EXIT REGULAR: Grab0074 (guava 14.0)
+EXIT REGULAR: Grab0047 (guava 17.0)
+EXIT REGULAR: Grab0072 (guava 12.0)
+EXIT REGULAR: Grab0076 (guava 16.0)
+EXIT REGULAR: Grab0060 (guava 10.0)
+EXIT REGULAR: Grab0071 (guava 11.0)
+EXIT REGULAR: Grab0006 (guava 16.0)
+EXIT REGULAR: Grab0046 (guava 16.0)
+EXIT REGULAR: Grab0022 (guava 12.0)
+EXIT REGULAR: Grab0036 (guava 16.0)
+EXIT REGULAR: Grab0063 (guava 13.0)
+EXIT REGULAR: Grab0032 (guava 12.0)
+EXIT REGULAR: Grab0078 (guava 18.0)
+EXIT REGULAR: Grab0040 (guava 10.0)
+EXIT REGULAR: Grab0077 (guava 17.0)
+EXIT REGULAR: Grab0045 (guava 15.0)
+EXIT REGULAR: Grab0011 (guava 11.0)
+EXIT REGULAR: Grab0064 (guava 14.0)
+EXIT REGULAR: Grab0001 (guava 11.0)
+EXIT REGULAR: Grab0027 (guava 17.0)
+EXIT REGULAR: Grab0010 (guava 10.0)
+EXIT REGULAR: Grab0069 (guava 19.0)
+EXIT REGULAR: Grab0038 (guava 18.0)
+EXIT REGULAR: Grab0002 (guava 12.0)
+EXIT REGULAR: Grab0080 (guava 10.0)
+EXIT REGULAR: Grab0024 (guava 14.0)
+EXIT REGULAR: Grab0017 (guava 17.0)
+EXIT REGULAR: Grab0044 (guava 14.0)
+EXIT REGULAR: Grab0075 (guava 15.0)
+EXIT REGULAR: Grab0034 (guava 14.0)
+EXIT REGULAR: Grab0035 (guava 15.0)
+EXIT REGULAR: Grab0081 (guava 11.0)
+EXIT REGULAR: Grab0062 (guava 12.0)
+EXIT REGULAR: Grab0012 (guava 12.0)
+EXIT REGULAR: Grab0009 (guava 19.0)
+EXIT REGULAR: Grab0014 (guava 14.0)
+EXIT REGULAR: Grab0082 (guava 12.0)
+EXIT REGULAR: Grab0019 (guava 19.0)
+EXIT REGULAR: Grab0050 (guava 10.0)
+EXIT REGULAR: Grab0061 (guava 11.0)
+EXIT REGULAR: Grab0057 (guava 17.0)
+EXIT REGULAR: Grab0052 (guava 12.0)
+EXIT REGULAR: Grab0023 (guava 13.0)
+EXIT REGULAR: Grab0028 (guava 18.0)
+EXIT REGULAR: Grab0037 (guava 17.0)
+EXIT REGULAR: Grab0058 (guava 18.0)
+EXIT REGULAR: Grab0031 (guava 11.0)
+EXIT REGULAR: Grab0005 (guava 15.0)
+EXIT REGULAR: Grab0083 (guava 13.0)
+EXIT REGULAR: Grab0051 (guava 11.0)
+EXIT REGULAR: Grab0026 (guava 16.0)
+EXIT REGULAR: Grab0015 (guava 15.0)
+EXIT REGULAR: Grab0029 (guava 19.0)
+EXIT REGULAR: Grab0043 (guava 13.0)
+EXIT REGULAR: Grab0013 (guava 13.0)
+EXIT REGULAR: Grab0079 (guava 19.0)
+EXIT REGULAR: Grab0004 (guava 14.0)
+EXIT REGULAR: Grab0008 (guava 18.0)
+EXIT REGULAR: Grab0070 (guava 10.0)
+EXIT REGULAR: Grab0039 (guava 19.0)
+EXIT REGULAR: Grab0003 (guava 13.0)
+EXIT REGULAR: Grab0073 (guava 13.0)
+EXIT REGULAR: Grab0048 (guava 18.0)
+EXIT REGULAR: Grab0007 (guava 17.0)
+EXIT REGULAR: Grab0067 (guava 17.0)
+EXIT REGULAR: Grab0087 (guava 17.0)
+EXIT REGULAR: Grab0092 (guava 12.0)
+Sat Jan 18 12:58:10 CET 2025 - 0 threads running...
+Downloaded artifacts: none
+Test took 15 seconds
+END testParallelGrabs_oldDefaultGrapeConfigPlusGrengineLocking
+> Task :test
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+For more on this, please refer to https://docs.gradle.org/8.10.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+BUILD SUCCESSFUL in 15s
+2 actionable tasks: 1 executed, 1 up-to-date
+12:58:10: Execution finished ':test --tests "GrabConcurrencyTest.testParallelGrabs_oldDefaultGrapeConfigPlusGrengineLocking"'.
